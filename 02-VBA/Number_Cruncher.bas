@@ -1,5 +1,5 @@
 Attribute VB_Name = "Module1"
-Sub AlphabeticalTesting():
+Sub Calculator():
 
     ' Loop through all the stocks for one year and output the following info:
     ' The ticker symbol
@@ -12,7 +12,7 @@ Sub AlphabeticalTesting():
     ' Part 1: ticker symbol
     ' Use CreditCardChecker as reference
     ' Create var to hold the number of rows
-    Dim lastRow As Long
+    Dim lastRow As Double
     ' Create var to hold the row of the ticker
     Dim tickerRow As Long
     ' Create var to hold ticker symbol
