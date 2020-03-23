@@ -1,5 +1,5 @@
 Attribute VB_Name = "Module1"
-Sub Calculator():
+Sub StockCalculator():
 
     ' Loop through all the stocks for one year and output the following info:
     ' The ticker symbol
@@ -14,7 +14,7 @@ Sub Calculator():
     ' Create var to hold the number of rows
     Dim lastRow As Double
     ' Create var to hold the row of the ticker
-    Dim tickerRow As Long
+    Dim tickerRow As Double
     ' Create var to hold ticker symbol
     Dim ticker As String
     ' Create var to hold total stock volume
