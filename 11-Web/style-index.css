@@ -1,0 +1,81 @@
+body {
+    background: #E9ECEF;
+}
+
+nav.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    background-color: #0BADA6;
+}
+
+.nav-link {
+    color: #777777;
+}
+
+@media (max-width: 991px) {
+    nav.navbar {
+        background-color: #0BADA6;
+    }
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+}
+
+#main {
+    width: 50%;
+    float: left;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 40px;
+}
+
+#fig {
+    position: relative;
+}
+
+#fig1 {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+
+#side {
+    width: 30%;
+    float: left;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 40px;
+}
+
+#sidefigs {
+    position: relative;
+}
+
+@media (max-width: 900px) {
+    #main {
+        width: 95%;
+        float: left;
+        background-color: white;
+        margin-top: 60px;
+        margin-left: 20px;
+        padding: 40px;
+    }
+
+    #side {
+        width: 95%;
+        float: left;
+        background-color: white;
+        margin-top: 60px;
+        margin-left: 20px;
+        padding: 40px;
+    }
+    
+}

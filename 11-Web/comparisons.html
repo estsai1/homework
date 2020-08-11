@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html lang='en-us'>
+
+<head>
+
+    <meta charset='UTF-8' />
+    <title>Comparisons Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-comparisons.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar Stuff -->
+    <nav class="navbar navbar-expand-lg navbar-black">
+            
+            <div class ="navbar-header">
+
+                <!-- Navbar Brand -->
+                <a class="navbar-brand p-3 mt-n2 mb-n2 ml-n4" href="index.html" style="color: white;">Lattitude</a>
+
+                <!-- Toggle Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto navbar-right">
+
+                    <!-- Dropdown Menu -->
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="white">Plots</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="max_temp.html" style="color: black;">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html" style="color: black;">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html" style="color: black;">Cloudiness</a>
+                            <a class="dropdown-item" href="wind_speed.html" style="color: black;">Wind Speed</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+
+                </ul>
+
+            </div>
+    </nav>
+
+    <section id="main">
+        <h1 style="color: #0BADA6;">Comparison: Latitude vs X</h1>
+        <br>
+        <hr />
+        <p>Click any plot to get an in-depth analysis.</p>
+    </section>
+
+    <section id="box1">
+        <h3 style="color: #0BADA6;">vs. Max Temperature</h3>
+        <a href="max_temp.html">
+            <img id="fig1" src="./Resources/assets/images/Fig1.png" alt="Figure 1"/>
+        </a>
+    </section>
+
+    <section id="box2">
+        <h3 style="color: #0BADA6;">vs. Humidity</h3>
+        <a href="humidity.html">
+            <img id="fig2" src="./Resources/assets/images/Fig2.png" alt="Figure 2"/>   
+        </a>     
+    </section>
+
+    <section id="box3">
+        <h3 style="color: #0BADA6;">vs. Cloudiness</h3>
+        <a href="cloudiness.html">
+            <img id="fig3" src="./Resources/assets/images/Fig3.png" alt="Figure 3"/> 
+        </a> 
+    </section>
+
+    <section id="box4">
+        <h3 style="color: #0BADA6;">vs. Wind Speed</h3>
+        <a href="wind_speed.html">
+            <img id="fig4" src="./Resources/assets/images/Fig4.png" alt="Figure 4"/>      
+        </a>   
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+
+</body>
+
+</html>
